@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C205D69E166422D4003119AA /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D692166422D4003119AA /* Model.m */; };
+		C205D69F166422D4003119AA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D695166422D4003119AA /* FMDatabase.m */; };
+		C205D6A0166422D4003119AA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D697166422D4003119AA /* FMDatabaseAdditions.m */; };
+		C205D6A1166422D4003119AA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D699166422D4003119AA /* FMDatabasePool.m */; };
+		C205D6A2166422D4003119AA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D69B166422D4003119AA /* FMDatabaseQueue.m */; };
+		C205D6A3166422D4003119AA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D69D166422D4003119AA /* FMResultSet.m */; };
+		C205D6A616642317003119AA /* Blobagotchi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C205D6A516642317003119AA /* Blobagotchi.storyboard */; };
+		C205D6A8166426C2003119AA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C205D6A7166426C2003119AA /* libsqlite3.dylib */; };
+		C205D6AD16642A1D003119AA /* 109-chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6AA16642A1D003119AA /* 109-chicken.png */; };
+		C205D6AE16642A1D003119AA /* 156-controlpad.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6AB16642A1D003119AA /* 156-controlpad.png */; };
+		C205D6AF16642A1D003119AA /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6AC16642A1D003119AA /* 53-house.png */; };
+		C205D6B116642C84003119AA /* sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6B016642C84003119AA /* sleep.png */; };
+		C205D6B316642FC3003119AA /* bubble-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6B216642FC3003119AA /* bubble-icon.png */; };
+		C205D6B516643835003119AA /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6B416643835003119AA /* loading.png */; };
+		C205D6BB16643892003119AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6B616643866003119AA /* Default@2x.png */; };
+		C205D6BF16643BDD003119AA /* create-blob.png in Resources */ = {isa = PBXBuildFile; fileRef = C205D6BE16643BDD003119AA /* create-blob.png */; };
+		C205D6C416643EE8003119AA /* BlobagotchiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D6C116643EE8003119AA /* BlobagotchiViewController.m */; };
+		C205D6C516643EE8003119AA /* Blobs.m in Sources */ = {isa = PBXBuildFile; fileRef = C205D6C316643EE8003119AA /* Blobs.m */; };
+		C2209199166D54070093C808 /* PlayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2209198166D54070093C808 /* PlayTableViewController.m */; };
+		C22091A5166D592A0093C808 /* TemplateChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22091A4166D592A0093C808 /* TemplateChoiceTableViewController.m */; };
+		C22091A8166D5B230093C808 /* NewCreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22091A7166D5B230093C808 /* NewCreatureViewController.m */; };
+		C22091AB166D6D040093C808 /* mainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22091AA166D6D030093C808 /* mainTabBarController.m */; };
+		C22091BD166D77230093C808 /* CleanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22091B9166D771A0093C808 /* CleanTableViewController.m */; };
+		C22091BE166D77230093C808 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22091BB166D771D0093C808 /* FeedTableViewController.m */; };
+		C22091C2166D77350093C808 /* HomePageAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22091BF166D77340093C808 /* HomePageAnimationViewController.m */; };
+		C22091C3166D77350093C808 /* SleepTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22091C1166D77340093C808 /* SleepTableViewController.m */; };
+		C22091C5166D77400093C808 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C22091C4166D77400093C808 /* bg.png */; };
+		C22091D2166D77630093C808 /* youngest_idle.png in Resources */ = {isa = PBXBuildFile; fileRef = C22091CF166D77630093C808 /* youngest_idle.png */; };
+		C22091D3166D77630093C808 /* youngest_idle_side_left.png in Resources */ = {isa = PBXBuildFile; fileRef = C22091D0166D77630093C808 /* youngest_idle_side_left.png */; };
+		C22091D4166D77630093C808 /* youngest_idle_side_right.png in Resources */ = {isa = PBXBuildFile; fileRef = C22091D1166D77630093C808 /* youngest_idle_side_right.png */; };
+		C239D41716641A7D0034AF9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C239D41616641A7D0034AF9B /* UIKit.framework */; };
+		C239D41916641A7D0034AF9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C239D41816641A7D0034AF9B /* Foundation.framework */; };
+		C239D41B16641A7D0034AF9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C239D41A16641A7D0034AF9B /* CoreGraphics.framework */; };
+		C239D42116641A7D0034AF9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C239D41F16641A7D0034AF9B /* InfoPlist.strings */; };
+		C239D42316641A7D0034AF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C239D42216641A7D0034AF9B /* main.m */; };
+		C239D42716641A7D0034AF9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C239D42616641A7D0034AF9B /* AppDelegate.m */; };
+		C239D43016641E8A0034AF9B /* blobagotchi.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = C239D42F16641E8A0034AF9B /* blobagotchi.sqlite3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C205D691166422D4003119AA /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C205D692166422D4003119AA /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C205D694166422D4003119AA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		C205D695166422D4003119AA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		C205D696166422D4003119AA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C205D697166422D4003119AA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		C205D698166422D4003119AA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		C205D699166422D4003119AA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		C205D69A166422D4003119AA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C205D69B166422D4003119AA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C205D69C166422D4003119AA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		C205D69D166422D4003119AA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		C205D6A516642317003119AA /* Blobagotchi.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Blobagotchi.storyboard; sourceTree = "<group>"; };
+		C205D6A7166426C2003119AA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C205D6AA16642A1D003119AA /* 109-chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "109-chicken.png"; sourceTree = "<group>"; };
+		C205D6AB16642A1D003119AA /* 156-controlpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "156-controlpad.png"; sourceTree = "<group>"; };
+		C205D6AC16642A1D003119AA /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		C205D6B016642C84003119AA /* sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleep.png; sourceTree = "<group>"; };
+		C205D6B216642FC3003119AA /* bubble-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-icon.png"; sourceTree = "<group>"; };
+		C205D6B416643835003119AA /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		C205D6B616643866003119AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C205D6B816643879003119AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C205D6BE16643BDD003119AA /* create-blob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-blob.png"; sourceTree = "<group>"; };
+		C205D6C016643EE7003119AA /* BlobagotchiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlobagotchiViewController.h; sourceTree = "<group>"; };
+		C205D6C116643EE8003119AA /* BlobagotchiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlobagotchiViewController.m; sourceTree = "<group>"; };
+		C205D6C216643EE8003119AA /* Blobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blobs.h; sourceTree = "<group>"; };
+		C205D6C316643EE8003119AA /* Blobs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blobs.m; sourceTree = "<group>"; };
+		C2209197166D54070093C808 /* PlayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTableViewController.h; sourceTree = "<group>"; };
+		C2209198166D54070093C808 /* PlayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTableViewController.m; sourceTree = "<group>"; };
+		C22091A3166D592A0093C808 /* TemplateChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateChoiceTableViewController.h; sourceTree = "<group>"; };
+		C22091A4166D592A0093C808 /* TemplateChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateChoiceTableViewController.m; sourceTree = "<group>"; };
+		C22091A6166D5B230093C808 /* NewCreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCreatureViewController.h; sourceTree = "<group>"; };
+		C22091A7166D5B230093C808 /* NewCreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCreatureViewController.m; sourceTree = "<group>"; };
+		C22091A9166D6D030093C808 /* mainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTabBarController.h; sourceTree = "<group>"; };
+		C22091AA166D6D030093C808 /* mainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTabBarController.m; sourceTree = "<group>"; };
+		C22091B8166D771A0093C808 /* CleanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanTableViewController.h; sourceTree = "<group>"; };
+		C22091B9166D771A0093C808 /* CleanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanTableViewController.m; sourceTree = "<group>"; };
+		C22091BA166D771B0093C808 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		C22091BB166D771D0093C808 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		C22091BC166D77200093C808 /* HomePageAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageAnimationViewController.h; sourceTree = "<group>"; };
+		C22091BF166D77340093C808 /* HomePageAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageAnimationViewController.m; sourceTree = "<group>"; };
+		C22091C0166D77340093C808 /* SleepTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepTableViewController.h; sourceTree = "<group>"; };
+		C22091C1166D77340093C808 /* SleepTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepTableViewController.m; sourceTree = "<group>"; };
+		C22091C4166D77400093C808 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		C22091CF166D77630093C808 /* youngest_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youngest_idle.png; sourceTree = "<group>"; };
+		C22091D0166D77630093C808 /* youngest_idle_side_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youngest_idle_side_left.png; sourceTree = "<group>"; };
+		C22091D1166D77630093C808 /* youngest_idle_side_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youngest_idle_side_right.png; sourceTree = "<group>"; };
+		C239D41216641A7D0034AF9B /* blobagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blobagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C239D41616641A7D0034AF9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C239D41816641A7D0034AF9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C239D41A16641A7D0034AF9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C239D41E16641A7D0034AF9B /* blobagotchi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blobagotchi-Info.plist"; sourceTree = "<group>"; };
+		C239D42016641A7D0034AF9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C239D42216641A7D0034AF9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C239D42416641A7D0034AF9B /* blobagotchi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "blobagotchi-Prefix.pch"; sourceTree = "<group>"; };
+		C239D42516641A7D0034AF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C239D42616641A7D0034AF9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C239D42F16641E8A0034AF9B /* blobagotchi.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blobagotchi.sqlite3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C239D40F16641A7C0034AF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C205D6A8166426C2003119AA /* libsqlite3.dylib in Frameworks */,
+				C239D41716641A7D0034AF9B /* UIKit.framework in Frameworks */,
+				C239D41916641A7D0034AF9B /* Foundation.framework in Frameworks */,
+				C239D41B16641A7D0034AF9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C205D690166422D4003119AA /* orm */ = {
+			isa = PBXGroup;
+			children = (
+				C205D691166422D4003119AA /* Model.h */,
+				C205D692166422D4003119AA /* Model.m */,
+			);
+			path = orm;
+			sourceTree = "<group>";
+		};
+		C205D693166422D4003119AA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C205D694166422D4003119AA /* FMDatabase.h */,
+				C205D695166422D4003119AA /* FMDatabase.m */,
+				C205D696166422D4003119AA /* FMDatabaseAdditions.h */,
+				C205D697166422D4003119AA /* FMDatabaseAdditions.m */,
+				C205D698166422D4003119AA /* FMDatabasePool.h */,
+				C205D699166422D4003119AA /* FMDatabasePool.m */,
+				C205D69A166422D4003119AA /* FMDatabaseQueue.h */,
+				C205D69B166422D4003119AA /* FMDatabaseQueue.m */,
+				C205D69C166422D4003119AA /* FMResultSet.h */,
+				C205D69D166422D4003119AA /* FMResultSet.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C205D6A916642A1D003119AA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C22091CD166D77630093C808 /* Animation */,
+				C22091C4166D77400093C808 /* bg.png */,
+				C205D6BE16643BDD003119AA /* create-blob.png */,
+				C205D6B416643835003119AA /* loading.png */,
+				C205D6B216642FC3003119AA /* bubble-icon.png */,
+				C205D6B016642C84003119AA /* sleep.png */,
+				C205D6AA16642A1D003119AA /* 109-chicken.png */,
+				C205D6AB16642A1D003119AA /* 156-controlpad.png */,
+				C205D6AC16642A1D003119AA /* 53-house.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		C22091CD166D77630093C808 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C22091CE166D77630093C808 /* Idle */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		C22091CE166D77630093C808 /* Idle */ = {
+			isa = PBXGroup;
+			children = (
+				C22091CF166D77630093C808 /* youngest_idle.png */,
+				C22091D0166D77630093C808 /* youngest_idle_side_left.png */,
+				C22091D1166D77630093C808 /* youngest_idle_side_right.png */,
+			);
+			path = Idle;
+			sourceTree = "<group>";
+		};
+		C239D40716641A7C0034AF9B = {
+			isa = PBXGroup;
+			children = (
+				C205D6B816643879003119AA /* Default.png */,
+				C205D6B616643866003119AA /* Default@2x.png */,
+				C205D6A7166426C2003119AA /* libsqlite3.dylib */,
+				C239D41C16641A7D0034AF9B /* blobagotchi */,
+				C239D41516641A7D0034AF9B /* Frameworks */,
+				C239D41316641A7D0034AF9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C239D41316641A7D0034AF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C239D41216641A7D0034AF9B /* blobagotchi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C239D41516641A7D0034AF9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C239D41616641A7D0034AF9B /* UIKit.framework */,
+				C239D41816641A7D0034AF9B /* Foundation.framework */,
+				C239D41A16641A7D0034AF9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C239D41C16641A7D0034AF9B /* blobagotchi */ = {
+			isa = PBXGroup;
+			children = (
+				C22091BF166D77340093C808 /* HomePageAnimationViewController.m */,
+				C22091C0166D77340093C808 /* SleepTableViewController.h */,
+				C22091C1166D77340093C808 /* SleepTableViewController.m */,
+				C22091B8166D771A0093C808 /* CleanTableViewController.h */,
+				C22091B9166D771A0093C808 /* CleanTableViewController.m */,
+				C22091BA166D771B0093C808 /* FeedTableViewController.h */,
+				C22091BB166D771D0093C808 /* FeedTableViewController.m */,
+				C22091BC166D77200093C808 /* HomePageAnimationViewController.h */,
+				C205D6C016643EE7003119AA /* BlobagotchiViewController.h */,
+				C205D6C116643EE8003119AA /* BlobagotchiViewController.m */,
+				C205D6C216643EE8003119AA /* Blobs.h */,
+				C205D6C316643EE8003119AA /* Blobs.m */,
+				C205D6A916642A1D003119AA /* resources */,
+				C205D690166422D4003119AA /* orm */,
+				C205D693166422D4003119AA /* src */,
+				C239D42F16641E8A0034AF9B /* blobagotchi.sqlite3 */,
+				C239D42516641A7D0034AF9B /* AppDelegate.h */,
+				C239D42616641A7D0034AF9B /* AppDelegate.m */,
+				C239D41D16641A7D0034AF9B /* Supporting Files */,
+				C205D6A516642317003119AA /* Blobagotchi.storyboard */,
+				C2209197166D54070093C808 /* PlayTableViewController.h */,
+				C2209198166D54070093C808 /* PlayTableViewController.m */,
+				C22091A3166D592A0093C808 /* TemplateChoiceTableViewController.h */,
+				C22091A4166D592A0093C808 /* TemplateChoiceTableViewController.m */,
+				C22091A6166D5B230093C808 /* NewCreatureViewController.h */,
+				C22091A7166D5B230093C808 /* NewCreatureViewController.m */,
+				C22091A9166D6D030093C808 /* mainTabBarController.h */,
+				C22091AA166D6D030093C808 /* mainTabBarController.m */,
+			);
+			path = blobagotchi;
+			sourceTree = "<group>";
+		};
+		C239D41D16641A7D0034AF9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C239D41E16641A7D0034AF9B /* blobagotchi-Info.plist */,
+				C239D41F16641A7D0034AF9B /* InfoPlist.strings */,
+				C239D42216641A7D0034AF9B /* main.m */,
+				C239D42416641A7D0034AF9B /* blobagotchi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C239D41116641A7C0034AF9B /* blobagotchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C239D42A16641A7D0034AF9B /* Build configuration list for PBXNativeTarget "blobagotchi" */;
+			buildPhases = (
+				C239D40E16641A7C0034AF9B /* Sources */,
+				C239D40F16641A7C0034AF9B /* Frameworks */,
+				C239D41016641A7C0034AF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blobagotchi;
+			productName = blobagotchi;
+			productReference = C239D41216641A7D0034AF9B /* blobagotchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C239D40916641A7C0034AF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C239D40C16641A7C0034AF9B /* Build configuration list for PBXProject "blobagotchi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C239D40716641A7C0034AF9B;
+			productRefGroup = C239D41316641A7D0034AF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C239D41116641A7C0034AF9B /* blobagotchi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C239D41016641A7C0034AF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C239D42116641A7D0034AF9B /* InfoPlist.strings in Resources */,
+				C239D43016641E8A0034AF9B /* blobagotchi.sqlite3 in Resources */,
+				C205D6A616642317003119AA /* Blobagotchi.storyboard in Resources */,
+				C205D6AD16642A1D003119AA /* 109-chicken.png in Resources */,
+				C205D6AE16642A1D003119AA /* 156-controlpad.png in Resources */,
+				C205D6AF16642A1D003119AA /* 53-house.png in Resources */,
+				C205D6B116642C84003119AA /* sleep.png in Resources */,
+				C205D6B316642FC3003119AA /* bubble-icon.png in Resources */,
+				C205D6B516643835003119AA /* loading.png in Resources */,
+				C205D6BB16643892003119AA /* Default@2x.png in Resources */,
+				C205D6BF16643BDD003119AA /* create-blob.png in Resources */,
+				C22091C5166D77400093C808 /* bg.png in Resources */,
+				C22091D2166D77630093C808 /* youngest_idle.png in Resources */,
+				C22091D3166D77630093C808 /* youngest_idle_side_left.png in Resources */,
+				C22091D4166D77630093C808 /* youngest_idle_side_right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C239D40E16641A7C0034AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C239D42316641A7D0034AF9B /* main.m in Sources */,
+				C239D42716641A7D0034AF9B /* AppDelegate.m in Sources */,
+				C205D69E166422D4003119AA /* Model.m in Sources */,
+				C205D69F166422D4003119AA /* FMDatabase.m in Sources */,
+				C205D6A0166422D4003119AA /* FMDatabaseAdditions.m in Sources */,
+				C205D6A1166422D4003119AA /* FMDatabasePool.m in Sources */,
+				C205D6A2166422D4003119AA /* FMDatabaseQueue.m in Sources */,
+				C205D6A3166422D4003119AA /* FMResultSet.m in Sources */,
+				C205D6C416643EE8003119AA /* BlobagotchiViewController.m in Sources */,
+				C205D6C516643EE8003119AA /* Blobs.m in Sources */,
+				C2209199166D54070093C808 /* PlayTableViewController.m in Sources */,
+				C22091A5166D592A0093C808 /* TemplateChoiceTableViewController.m in Sources */,
+				C22091A8166D5B230093C808 /* NewCreatureViewController.m in Sources */,
+				C22091AB166D6D040093C808 /* mainTabBarController.m in Sources */,
+				C22091BD166D77230093C808 /* CleanTableViewController.m in Sources */,
+				C22091BE166D77230093C808 /* FeedTableViewController.m in Sources */,
+				C22091C2166D77350093C808 /* HomePageAnimationViewController.m in Sources */,
+				C22091C3166D77350093C808 /* SleepTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C239D41F16641A7D0034AF9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C239D42016641A7D0034AF9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C239D42816641A7D0034AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C239D42916641A7D0034AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C239D42B16641A7D0034AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blobagotchi/blobagotchi-Prefix.pch";
+				INFOPLIST_FILE = "blobagotchi/blobagotchi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C239D42C16641A7D0034AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blobagotchi/blobagotchi-Prefix.pch";
+				INFOPLIST_FILE = "blobagotchi/blobagotchi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C239D40C16641A7C0034AF9B /* Build configuration list for PBXProject "blobagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C239D42816641A7D0034AF9B /* Debug */,
+				C239D42916641A7D0034AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C239D42A16641A7D0034AF9B /* Build configuration list for PBXNativeTarget "blobagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C239D42B16641A7D0034AF9B /* Debug */,
+				C239D42C16641A7D0034AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C239D40916641A7C0034AF9B /* Project object */;
+}
